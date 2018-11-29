@@ -15,4 +15,9 @@ public final class Result {
         this.filePath = filePath;
         this.hash = hash;
     }
+
+    @Override
+    public String toString() {
+        return "[" + filePath + " / " + hash + "]";
+    }
 }
